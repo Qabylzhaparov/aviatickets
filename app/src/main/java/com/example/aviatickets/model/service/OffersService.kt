@@ -1,10 +1,10 @@
-package com.example.aviatickets.model.service
+package com.example.aviatickets.model.network
 
 import com.example.aviatickets.model.entity.Offer
 import retrofit2.Call
 import retrofit2.http.GET
 
-interface ApiService {
+interface OffersService {
     @GET("offer_list")
-    fun getOfferList(): Call<List<Offer>>
+    fun getAllOffers(): Call<MutableList<Offer>>
 }

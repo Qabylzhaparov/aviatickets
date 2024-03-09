@@ -3,7 +3,7 @@ package com.example.aviatickets.adapter
 import androidx.recyclerview.widget.DiffUtil
 import com.example.aviatickets.model.entity.Offer
 
-class OfferDiffCallback(private val oldList: List<Offer>, private val newList: List<Offer>) :
+class OffersCallback(private val oldList: List<Offer>, private val newList: List<Offer>) :
     DiffUtil.Callback() {
 
     override fun getOldListSize(): Int = oldList.size
