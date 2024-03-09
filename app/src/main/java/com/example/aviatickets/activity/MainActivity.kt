@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.aviatickets.R
 import com.example.aviatickets.databinding.ActivityMainBinding
-import com.example.aviatickets.fragment.OfferListFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
